@@ -1,0 +1,17 @@
+#exercises.txt
+
+Question 2
+1. x = 2   # => 2
+2. puts x = 2  # => nil
+3. p name = "Joe" # => "Joe"
+4. four = "four" # => "four"
+5. print something = "nothing" # => nil
+
+Question 4.
+answer: Nothing will be printed to screen. Return statement didn't include words variable, and no code to print was included before return statement.
+
+Question 5.
+answer: nil is returned. the return value of puts is nil, and if that is the last statement executed in the function, then that value will be returned
+
+Question 6.
+answer: the calculate_product function definition requires 2 arguments but only one was given when function was called.

@@ -1,0 +1,17 @@
+#exercise answers
+
+Question 1:
+1. (32 * 4) >= 129  # => false
+2. false != !true   # => false
+3. true == 4        # => true
+4. false == (847 == '874')  # => true
+5. (!true || (!(100 / 5) == 20) || ((328 / 4) == 82)) || false  # => true
+
+Question 4:
+
+1. => "FALSE"
+2. => "Did you get it right?"
+3. => "Alright now!"
+
+Question 6:
+answer: ruby is expecting the if else block to be ended with the keyword end. Add keyword end to the line after puts "nope", and error should go away.
