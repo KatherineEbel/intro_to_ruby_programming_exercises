@@ -1,0 +1,24 @@
+#hash exercises
+
+Question 2: Look at Ruby's merge method. Notice that it has two versions. What is the difference between merge and merge!? Write a program that uses both and illustrate the differences.
+
+Answer: see merge_function.rb
+        adding ! to function call will mutate the variable that was passed in as a parameter to merge. merge itself will not mutate variable if used by itself.
+
+Question 4: Access the name of person from hash
+answer: person[:name]
+
+Question 5: What method can be used to find out if a Hash contains a specific value in it?
+answer: has_value?  see: find_value_in_hash.rb
+
+Question 6: Given an array of strings, write a program that prints out groups of words that are anagrams.
+
+answer: see find_anagrams.rb
+
+Question 7: Given the following code... What's the difference between the two hashes that were created?
+
+answer: my_hash forms hash using symbol :x as key, whereas my_hash2 will form hash using the value of variable x ("hi there") as key
+
+Question 8: If you see this error, what do you suspect is the most likely problem?
+
+answer: B  Arrays don't have keys, only Hashes do

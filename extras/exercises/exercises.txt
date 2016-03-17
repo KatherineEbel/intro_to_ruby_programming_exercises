@@ -1,0 +1,15 @@
+Question 2  What will the following porgram print to the screen? What will it return?
+
+answer: execute will not return anything and will not print anything to screen because the block is never called from within the function. Change to block.call to make function work as intended.
+
+Question 3 What is exception handling and what problem does it solve.
+
+answer: exception handling allows us to handle errors that might occur in our code. This lets us deal with the error without necessarily crashing our program, unless that is how we want error to be handled.
+
+Question 4  Modify the code in exercise 2 to make the block execute properly
+
+answer: see block.rb   (change to block.call)
+
+question 5. Why does the following code... Give us the following error?
+
+anwer: We need to add an & in front of block parameter in execute function definition to let ruby know block parameter expects a block
